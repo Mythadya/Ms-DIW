@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <style>
+        a {
+            color: white;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href=../STATIQUE/CSS/style.css />
+    <script src="../Eval/Contact.js"></script>
+    <title>contact</title>
+</head>
+
+<body>
+    <img id="conlog" src="jarditou_logo.jpg" alt="logo jarditou" title="logo jarditou">
+    <p id="conqua"> La qualité depuis 70 ans</p>
+    <ul class="collu">
+        <li><a href="Accueil.html" title="Accueil">Accueil</a></li>
+        <li><a href="Tableau.html" title="Tableau">Tableau</a></li>
+        <li><a href="Contact.html" title="Contact">Contact</a></li>
+    </ul><br>
+    <img id="conlo" src="promotion.jpg" alt="Promotion" title="Promotion jarditou"><br>
+    <h1 id="act">Contact</h1>
+    <fieldset id="set">
+        <form name="Contact" action="/submit.php" method="post" class="Conta" onsubmit="return validateForm()">
+            <legend>Vos Coordonnées</legend>
+            <label for="nom" id="error-nom">Nom:</label><input type="text" name="nom" id="nom"><br>
+            <label for="prenom" id="error-prenom">Prénom:</label><input type="text" name="prenom" id="prenom"><br>
+            <br>
+            <label for="Genre">Genre:</label><br>
+            <input type="radio" id="Genre" name="Genre" value="Feminin">
+            <label for="feminin" id="error-feminin">Féminin</label><br>
+            <input type="radio" id="Genre" name="Genre" value="Masculin">
+            <label for="masculin" id="error-masculin">Masculin</label><br>
+            <br>
+            <label for="date" id="error-date">Date de naissance:</label><input type="date" name="ddn" id="date"><br>
+            <label for="CodePostal" id="error-CodePostal">Code Postal:</label><input type="text" name="CodePostal"
+                id="Codepostal" pattern="[0-9]{5}"><br>
+            <label for="Adresse" id="error-Adresse">Adresse:</label><input type="text" name="Adresse" id="Adresse"><br>
+            <label for="Ville" id="error-Ville">Ville:</label><input type="text" name="Ville" id="Ville"><br>
+            <label for="Email" id="error-Email">Email:</label><input type="text" name="Email" id="Email"><br>
+    </fieldset>
+    <fieldset id="eld">
+        <legend>Votre Demande</legend>
+        <label for="sujet" id="error-sujet">Sujet:</label>
+        <select id="sujet" name="sujet">
+            <option value="" selected>-</option>
+            <option value="commandes">Mes commandes</option>
+            <option value="Question">Question sur un produit</option>
+            <option value="Réclamation">Réclamation</option>
+            <option value="Autres">Autres</option>
+        </select><br>
+        <label for="VotreQuestion" id="error-VotreQuestion">Votre question:</label><br>
+        <textarea name="Votre question" rows="10" cols="50"></textarea>
+    </fieldset>
+    <input type="checkbox" name="traitement" id="traitement" value="formulaire"> * J'accepte le traitement
+    information de ce formulaire<br>
+    <br>
+    <input type="submit" value="Envoyer" id="submit-button">
+    <input type="reset" value="Annuler">
+    </form>
+</body>
+
+</html>
