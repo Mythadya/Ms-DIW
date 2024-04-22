@@ -1,0 +1,33 @@
+/* .containerss {
+    display: flex;
+    justify-content: center;
+}
+
+.containerss img {
+    width: 30%;
+    height: auto;
+    margin-right: 5px;
+}
+
+.containerss img:last-child {
+    margin-right: 0;
+} */
+
+.navbar {
+
+    background-image: url('../MS-DIW/images_the_district (1)/bg2.jpeg');
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+.card {
+    overflow: hidden;
+    position: relative;
+}
+
+.card:hover img {
+    transform: scale(1.1); /* 1.1 ou une autre valeur pour le zoom */
+    transition: transform 0.3s ease; /* contrôle la vitesse de transition */
+}
