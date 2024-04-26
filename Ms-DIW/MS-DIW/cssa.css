@@ -33,8 +33,14 @@
     background-size: cover;
     transform: translate3d(0, 0, 0);
     transition: transform 0.5s ease-out;
-  }
-  
-  .parallax-card.scrolled {
-    transform: translate3d(0, -100px, 0);
-  }
+}
+.parallax {
+    /* L'image utilisée */
+    background-image: url("../MS-DIW/images_the_district (1)/ibg.jpg");
+    min-height: 500px;
+    /* Créer l'effet de défilement parallaxe */
+    background-attachment: fixed;  
+    background-position: center; 
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
