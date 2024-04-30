@@ -6,13 +6,13 @@
 
 .containerss img:last-child {
     margin-right: 0;
-} */
+}
 
-.navbar {
+/* .navbar {
     background-image: url('../MS-DIW/images_the_district (1)/bg2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 .card {
     overflow: hidden;
     position: relative;
@@ -53,3 +53,14 @@
       display: none;
     }
 }
+/* @media (max-width: 768px) {
+    .navbar-toggler {
+       display: block;
+     }
+    .collapse.navbar-collapse {
+       display: none;
+     }
+    .collapse.navbar-collapse.show {
+       display: block;
+     }
+} */
