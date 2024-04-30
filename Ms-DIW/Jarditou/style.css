@@ -1,0 +1,140 @@
+.page{
+    background-color: black;
+    list-style-type: none;
+    text-align: left;
+    margin:0;
+    padding: 0;
+    font-size: small;
+}
+.page li{
+    display: inline-block;
+    padding: 19px;
+    font-size: 13px;
+    text-align: left;
+}
+#ent{
+    display: flex;
+    justify-content: flex-start;
+    font-size: small;
+    white-space: pre;
+    margin-top: -15px;
+}
+.mhp{
+    background-color: black;
+    list-style-type: none;
+    text-align: left;
+    margin:0;
+    padding: 0;
+    font-size: small;
+    margin-top: 5px;
+}
+.mhp li {
+    display: inline-block;
+    padding: 19px;
+    font-size: 13px;
+    text-align: left;
+}
+.logo{
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+}
+#txt {
+    margin-left: 1000px;
+    font-weight: 500;
+    font-size:larger;
+}
+#logose{
+    width: 150px;
+    float: inline-start;
+    margin-top: -5px;
+}
+.container{
+    display:flex;
+}
+.textes{
+    flex: 70%;
+    font-size: small;
+}
+.colonne{
+    flex: 30%;
+    background-color: gray;
+    display: flex;
+}
+.collu{
+    background-color: black;
+    list-style-type: none;
+    text-align: left;
+    margin:0;
+    padding: 0;
+    font-size: small;
+} 
+.collu li {
+    display: inline-block;
+    padding: 19px;
+    font-size: 13px;
+    text-align: left;
+}
+#conlog{
+    width: 150px;
+    float: inline-start;
+    margin-top: -10px;
+}
+#conqua{
+    margin-left: 1000px;
+    font-weight: 500;
+    font-size:larger;
+}
+#conlo{
+    width: 100%;
+    margin-top: -15px;
+    height: auto;
+}
+.tabul{
+    background-color: black;
+    list-style-type: none;
+    text-align: left;
+    margin:0;
+    padding: 0;
+    font-size: small;
+}
+.tabul li{
+    display: inline-block;
+    padding: 19px;
+    font-size: 13px;
+    text-align: left;
+}
+#tabmo{
+    width: 100%;
+    margin-top: -15px;
+    height: auto; 
+}
+.tabil{
+    background-color: black;
+    list-style-type: none;
+    text-align: left;
+    margin:0;
+    padding: 0;
+    font-size: small;
+}
+.tabil li{
+    display: inline-block;
+    padding: 19px;
+    font-size: 13px;
+    text-align: left;
+}
+#tabja{
+    width: 150px;
+    float: inline-start;
+    margin-top: -25px;
+}
+#taba{
+    margin-left: 1000px;
+    font-weight: 500;
+    font-size:larger;
+}
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin: 0;
+  }
