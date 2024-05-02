@@ -1,0 +1,10 @@
+#form-container {
+    background-image: url('../MS-DIW/images_the_district (1)/bg3.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 767px) {
+    .container.text-center.mt-5 {
+      display: none;
+    }
+}
