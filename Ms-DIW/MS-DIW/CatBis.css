@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+    .container.text-center.mt-5 {
+      display: none;
+    }
+}
